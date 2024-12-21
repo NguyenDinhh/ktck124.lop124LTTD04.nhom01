@@ -53,15 +53,7 @@ public class Adapter_Home_Fragment_Authors extends RecyclerView.Adapter<Adapter_
                 }
 
                 // Thiết lập sự kiện click cho mỗi item
-                holder.itemView.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Intent intent = new Intent(context, Detail_Author.class);
-                        Author author1 = arrauthors.get(currentPosition);
-                        intent.putExtra("TacGiaID", author1.getTacGiaID());  // Truyền vị trí qua Intent
-                        context.startActivity(intent);
-                    }
-                });
+
             }
         }
     }
