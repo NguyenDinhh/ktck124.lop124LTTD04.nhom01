@@ -30,7 +30,7 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
                 fragment = new Home_Fragment();  // Home Fragment
                 break;
             case 1:
-                fragment = new TTCN_Fragment();  // TTCN Fragment
+                fragment = new ttcnFragment();  // TTCN Fragment
                 break;
         }
 
