@@ -36,6 +36,6 @@
         android:background="@drawable/btn"
         android:text="Lưu"
         android:textColor="@color/white"
-        android:textSize="15dp" />/>
+        android:textSize="15dp" />
 
 </LinearLayout>
