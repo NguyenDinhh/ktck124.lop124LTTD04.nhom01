@@ -57,16 +57,7 @@ public class Adapter_Home_Fragment_books extends RecyclerView.Adapter<Adapter_Ho
                     }
                 }
 
-                // Thiết lập sự kiện click cho mỗi item
-                holder.itemView.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Intent intent = new Intent(context, Detail_book.class);
-                        Book book = arrBook.get(currentPosition);
-                        intent.putExtra("SachID", book.getSachID());  // Truyền vị trí qua Intent
-                        context.startActivity(intent);
-                    }
-                });
+
             }
         }
     }
