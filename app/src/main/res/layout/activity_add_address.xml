@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ và tên" />
+
+    <EditText
+        android:id="@+id/tv_msv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã sinh viên" />
+
+    <EditText
+        android:id="@+id/tv_nhomlop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhóm_Lớp" />
+
+    <EditText
+        android:id="@+id/tv_detai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Đề tài" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn"
+        android:textSize="15dp"
+        android:text="Lưu"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
